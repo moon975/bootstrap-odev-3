@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100%;
+}
+
+.nav-for::placeholder{
+    text-align: left;
+    font-size: 16px;
+    color: gray;
+    background-position: left;
+    background-size: 10%;
+    background-image: url(/img/search-solid\ \(1\).svg);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+.nav-for:focus::placeholder{
+    text-align: left;
+    font-size: 16px;
+    color: gray;
+    background-position: left;
+    background-size: 7%;
+    background-image: none;
+    padding-left: 0px;
+}
+
+.col-inp-2::placeholder{
+    text-align: left;
+    font-size: 16px;
+    color: gray;
+    background-position: left;
+    background-size: 6%;
+    background-image: url(/img/pen-to-square-solid.svg);
+    background-repeat: no-repeat;
+    padding-left: 23px;
+}
+
+.col-inp-2:focus::placeholder{
+    text-align: left;
+    font-size: 16px;
+    color: gray;
+    background-position: left;
+    background-size: 7%;
+    background-image: none;
+    padding-left: 0px;
+}
+
+.p-a1:hover{
+    text-decoration: underline;
+}
+
+.car-spa:hover{
+    text-decoration: underline;
+}
+
+.div-but:hover{
+    background-color: rgba(208, 206, 206, 0.829);
+}
+
+.spa-but{
+    padding: 0 3px;
+    background: rgba(208, 206, 206, 0.250);
+    border-radius: 5px;
+    padding-bottom: 4px;
+}
+
+.spa-but:hover{
+    background-color: rgba(208, 206, 206, 0.829);
+    border-radius: 5px;
+}
+
+.spa-but1{
+    background: #fff;
+    border: 2px solid #7dd3d7;
+    width: 75px;
+    color: #7dd3d7;
+    transition: background .4s;
+    border-radius: 50px;
+}
+
+.spa-but1:hover{
+    background: #7dd3d7;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.div-a{
+    text-decoration: none;
+    color: rgb(164, 160, 160);
+}
+
+.div-a:hover{
+    text-decoration: underline;
+    color: rgb(164, 160, 160);
+}
